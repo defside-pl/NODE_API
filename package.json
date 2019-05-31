@@ -1,0 +1,20 @@
+{
+  "name": "Noode.JS-Coding-Challenge",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "pretest": "npm install",
+    "test": "node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0",
+   "supertest-as-promised": "^3.1.0"
+  }
+}
